@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用Bootstrap做麥當勞網站</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="/images/avatar.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffefe;">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img class="avatar" src="/images/avatar.png" alt="" height="100">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto fs-5 mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/aboutme.html">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/portfolio.html">作品集</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/skills.html">技能介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/contact.html">聯絡我</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/1f.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            1樓
+                        </h5>
+                        <p class="card-text">
+                            照片
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
+                            按鈕
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/images/13f.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            13樓
+                        </h5>
+                        <p class="card-text">
+                            照片
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
+                            按鈕
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

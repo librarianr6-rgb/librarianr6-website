@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>用Bootstrap做麥當勞網站</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" href="fav.png" type="image/png">
+    <link rel="icon" href="/images/avatar.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffefe;">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="FullMenuLogo.png" alt="McDonald's" height="100">
+                <img class="avatar" src="/images/avatar.png" alt="" height="100">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,158 +26,45 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                 <ul class="navbar-nav me-auto fs-5 mb-2 mb-lg-0 ">
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            別具滋味
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">選項一</a></li>
-                            <li><a class="dropdown-item" href="#">選項二</a></li>
-                            <hr>
-                            <li><a class="dropdown-item" href="#">選項三</a></li>
-                        </ul>
-                    </li>
-
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">企業永續</a>
+                        <a class="nav-link text-dark" href="/index.html">首頁</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">數位便利</a>
+                        <a class="nav-link text-dark" href="/aboutme.html">關於我</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">現正推出</a>
+                        <a class="nav-link text-dark" href="/portfolio.html">作品集</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">尋找餐廳</a>
+                        <a class="nav-link text-dark" href="/skills.html">技能介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/contact.html">聯絡我</a>
                     </li>
                 </ul>
-
-                <form class="d-flex ms-auto" role="search">
-                    <input class="form-control me-4" type="search" placeholder="站內搜尋" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit" style="white-space: nowrap;">搜尋</button>
-                </form>
-
             </div>
 
         </div>
     </nav>
 
-    <div class="container my-5">
-        <div class="row justify-content-center position-relative">
+    <main class="container my-5">
+        <div class="row align-items-center hero-section">
 
-            <div class="col-12 text-center">
-                <div id="promoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="100">
+            <div class="col-lg-6 col-12 p-5 text-center text-lg-start">
+                <h1 class="welcome-title display-5 mb-4">翁一的網站</h1>
+                <p class="intro-text mb-4">
 
-                    <div class="carousel-inner rounded-4 shadow-sm">
-                        <div class="carousel-item active">
-                            <img src="food.jpg" alt="炭燒秘醬漢堡系列1" class="d-block w-100 img-fluid">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="drink.png" alt="炭燒秘醬漢堡系列2" class="d-block w-100 img-fluid">
-                        </div>
-                    </div>
+                </p>
+                <a href="/aboutme.html" class="btn btn-custom btn-lg mt-2">關於我</a>
+            </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#promoCarousel"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">上一張</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#promoCarousel"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">下一張</span>
-                    </button>
-
-                </div>
+            <div class="col-lg-6 col-12 p-0 text-center">
+                <img src="/images/1f.png" alt="Personal Banner" class="img-fluid hero-img">
             </div>
 
         </div>
-    </div>
-
-    <div class="container my-4">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="drink.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">金選咖啡</h5>
-                        <p class="card-text">精選世界2大咖啡產區的優質阿拉比卡豆，調和三種檸檬黃金比例，馥郁咖啡香與多層次的清新果香完美交織，喝一口就停不下來</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
-                            按鈕
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="drink.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">金選咖啡</h5>
-                        <p class="card-text">精選世界2大咖啡產區的優質阿拉比卡豆，調和三種檸檬黃金比例，馥郁咖啡香與多層次的清新果香完美交織，喝一口就停不下來
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
-                            按鈕
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="drink.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">金選咖啡</h5>
-                        <p class="card-text">
-                            This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
-                            按鈕
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="drink.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">金選咖啡</h5>
-                        <p class="card-text">精選世界2大咖啡產區的優質阿拉比卡豆，調和三種檸檬黃金比例，馥郁咖啡香與多層次的清新果香完美交織，喝一口就停不下來
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
-                            按鈕
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="drink.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">金選咖啡</h5>
-                        <p class="card-text">精選世界2大咖啡產區的優質阿拉比卡豆，調和三種檸檬黃金比例，馥郁咖啡香與多層次的清新果香完美交織，喝一口就停不下來
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-outline-dark rounded-pill px-4 py-2">
-                            按鈕
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
