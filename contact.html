@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用Bootstrap做麥當勞網站</title>
+    <title>114111206</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" href="images/avatar.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +12,6 @@
 
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffefe;">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -47,6 +46,49 @@
 
         </div>
     </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            
+            <div class="col-md-5 mb-4">
+                <h3 class="mb-3">聯絡資訊</h3>
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <p class="fs-5">日四技資管1B 翁一</p>
+                        <p class="fs-5">
+                            <strong>Email：</strong>
+                            <a href="mailto:114111206@mail.aeust.edu.tw" class="text-decoration-none">114111206@mail.aeust.edu.tw</a>
+                        </p>
+                        <p class="fs-5"><strong>電話：</strong>0800-092-000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7 mb-4">
+                <h3 class="mb-3">聯絡表單</h3>
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="visitorName" class="form-label">姓名</label>
+                                <input type="text" class="form-control" id="visitorName" name="name" placeholder="請輸入您的姓名" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="visitorEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="visitorEmail" name="email" placeholder="請輸入您的 Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="visitorPhone" class="form-label">電話</label>
+                                <input type="tel" class="form-control" id="visitorPhone" name="phone" placeholder="請輸入您的聯絡電話" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-2">送出訊息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
