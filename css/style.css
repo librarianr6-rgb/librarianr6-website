@@ -32,7 +32,7 @@
         }
 
         .nav-link:hover {
-            color: #ffc107 !important;
+            color: #079cff !important;
             transform: translateY(-2px);
         }
 
@@ -57,21 +57,21 @@
         }
 
         .btn-custom {
-            background-color: #ffc107;
+            background-color: #97cdff;
             color: #212529;
             font-weight: bold;
             border-radius: 30px;
             padding: 10px 30px;
             border: none;
-            box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+            box-shadow: 0 4px 15px rgb(114, 215, 255);
             transition: all 0.3s ease;
         }
 
         .btn-custom:hover {
-            background-color: #e0a800;
+            background-color: #005ae0;
             color: #ffffff;
             transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(255, 193, 7, 0.6);
+            box-shadow: 0 6px 20px rgba(114, 215, 255);
         }
 
         .hero-img {
