@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="images/avatar.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffefe;">
+        <div class="container">
+            <a class="navbar-brand">
+                <img class="avatar" src="images/avatar.png" alt="" height="100">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto fs-5 mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">文章</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 flex-grow-1">
+        <article class="bg-white p-4 p-md-5 rounded shadow-sm">
+
+            <h1 class="mb-4">AI 技術重大更新</h1>
+
+            <div class="alert alert-primary text-dark mb-5" role="alert">
+                <h5 class="alert-heading fw-bold">2026 年 6 月初全球 AI
+                    技術領先企業（Google、OpenAI、Anthropic、Microsoft）的重大更新與市場動態</h5>
+                <hr>
+                <ul class="mb-0 ps-3">
+                    <li class="mb-2">Google 翻譯與研究工具轉型：Gemini 3.5 Live Translate 實現了跨語言同步語音翻譯；NotebookLM
+                        轉向自主研究圖書館模式，不再依賴用戶預填資料。</li>
+                    <li class="mb-2">OpenAI 的戰略進攻：ChatGPT 迎來史上最大規模改版，將 Codex 深度整合以轉型「超級應用」，並透過極低門檻的遷移機制與補貼政策，直接爭奪
+                        Anthropic 的用戶群。</li>
+                    <li class="mb-2">Anthropic 的效能巔峰與監管困境：Claude Fable 5
+                        展現了卓越的視覺與規劃能力，但因其底層模型（Mythos）在資安領域的強大破壞力，遭美國政府實施出口管制。</li>
+                    <li>Microsoft 科研自動化：Microsoft Discovery 平台透過 AI 科學代理人加速量子運算研究，目標將規模化量子電腦的實現時程提前至 2029 年。</li>
+                </ul>
+            </div>
+
+            <h2 class="mt-5 text-danger border-bottom pb-2">一、 Google：翻譯技術與研究工具的進化</h2>
+
+            <h4 class="mt-4 text-danger">1. Gemini 3.5 Live Translate</h4>
+            <ul>
+                <li class="mb-2"><strong>技術突破：</strong>與傳統「說一句翻一句」的斷續模式不同，Live Translate
+                    採用「持續生成技術」，在接收語音的同時同步翻譯，僅落後說話者數秒，確保對話節奏順暢。</li>
+                <li class="mb-2"><strong>功能特性：</strong>
+                    <ul>
+                        <li>自動檢測超過 70 種語言，無需手動切換。</li>
+                        <li>保留原說話者的語調、節奏與音高。</li>
+                        <li>整合於 Google 翻譯 App（Android/iOS），支援藍牙耳機或擴音播放。</li>
+                    </ul>
+                </li>
+                <li class="mb-2"><strong>應用場景：</strong>除了日常對話，亦可透過 Google AI Studio 用於瀏覽器影片即時翻譯，實測顯示在即時新聞與體育轉播中具備高度實用性。
+                </li>
+            </ul>
+
+            <h4 class="mt-4 text-warning">2. NotebookLM 大幅更新</h4>
+            <ul>
+                <li class="mb-2"><strong>邏輯轉向：</strong>從「被動處理筆記」轉變為「主動打造研究圖書館」。用戶可僅提供「鬆散的想法」，系統將透過 Google
+                    搜尋尋找高品質資料來源並建立資料庫。</li>
+                <li class="mb-2"><strong>核心功能：</strong>
+                    <ul>
+                        <li>精準推理：搭載 Gemini 3.5 與 Antigravity 技術，提供來源追蹤器（Source finder），可精確定位答案取自哪份文件的哪個句子。</li>
+                        <li>安全雲端電腦：內建超過 100 種技能，能自動編寫程式碼以整理雜亂文件。</li>
+                        <li>格式多樣化：支援 Microsoft 所有檔案格式、具備圖表的 PDF 報告及結構化數據。</li>
+                    </ul>
+                </li>
+                <li class="mb-2"><strong>權限限制：</strong>目前僅開放予 Google AI Ultra 訂閱者與 Google Workspace 商業客戶。</li>
+            </ul>
+
+            <h4 class="mt-4 text-primary">3. 其他技術佈局</h4>
+            <ul>
+                <li><strong>DiffusionGemma：</strong>實驗性開放模型，採用「區塊生成」（256 個 Token）而非單一 Token 生成，適合非線性任務（如填補程式碼空缺），可在 18GB
+                    顯存的硬體上運行。</li>
+            </ul>
+
+            <h2 class="mt-5 text-secondary border-bottom pb-2">二、 OpenAI：ChatGPT 改版與市場擴張策略</h2>
+
+            <h4 class="mt-4 text-secondary">1. ChatGPT 轉型「超級應用」</h4>
+            <ul>
+                <li class="mb-2"><strong>改版規劃：</strong>計劃將 Codex 的智慧能力與 ChatGPT 深度整合，介面重新設計以引導用戶進行程式開發與圖片生成。</li>
+                <li class="mb-2"><strong>合作生態：</strong>預計與 Canva、Booking.com 等服務供應商合作，朝向全方位應用平台發展。</li>
+            </ul>
+
+            <h4 class="mt-4 text-secondary">2. 針對 Anthropic 的競爭手段</h4>
+            <ul>
+                <li class="mb-2"><strong>「無痛遷移」機制：</strong>6 月 9 日新增 Migrate to Codex 流程，允許用戶匯入 Claude 的指令文件、Skills、Json
+                    檔案，甚至包含最近 30 天的對話紀錄。若設定無法直接對應，將由名為 migrate-to-codex 的 Agent 協助完成。</li>
+                <li class="mb-2"><strong>補貼與獎勵計畫：</strong>
+                    <ul>
+                        <li>推薦獎勵：Plus 或 Pro 用戶邀請好友加入，可獲得「額度重置」。</li>
+                        <li>企業端：Business Workspace 每席位最高提供 500 美金補助。</li>
+                        <li>教育與開源：美加大學生可獲得 100 美金額度；開源開發者可享 6 個月 Pro 帳號免費用。</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2 class="mt-5 border-bottom pb-2"  style="color: #D97757;">三、 Anthropic：Claude Fable 5 的效能與管制風險</h2>
+
+            <h4 class="mt-4" style="color: #D97757;">1. 地表最強效能表現</h4>
+            <ul>
+                <li class="mb-2"><strong>視覺任務突破：</strong>Fable 5 能僅憑遊戲截圖（無額外狀態資訊）破關《精靈寶可夢 火紅版》，展現卓越的動態介面解讀與長期目標規劃能力。
+                </li>
+                <li class="mb-2"><strong>多媒體應用：</strong>實測顯示可將低品質音檔轉為清晰的網頁 App，或透過單一提示詞（Prompt）生成像素風 3D 遊戲。</li>
+            </ul>
+
+            <h4 class="mt-4" style="color: #D97757;">2. 國家安全與出口管制</h4>
+            <ul>
+                <li class="mb-2"><strong>Mythos 模型的雙面性：</strong>Fable 5 的底層模型 Mythos 極度擅長偵測系統與瀏覽器漏洞。基於安全考慮，Anthropic
+                    已將高風險領域（生物、化學、資安）的回應交由 Opus 4.8 接手。</li>
+                <li class="mb-2"><strong>管制禁令：</strong>6 月 13 日，美國政府基於國家安全理由，對 Fable 5
+                    及其底層模型實施出口管制。除美國公民外，包含外籍員工在內的所有外國人士均被禁止存取。</li>
+            </ul>
+
+            <h2 class="mt-5 text-info border-bottom pb-2">四、 Microsoft：AI 代理人與量子科學研究</h2>
+
+            <h4 class="mt-4 text-info">1. Microsoft Discovery 平台</h4>
+            <ul>
+                <li class="mb-2"><strong>定位：</strong>運行於 Azure 上的科研平台，提供「AI 科學家代理人團隊」，負責文獻回顧、假設提出、執行分析與迭代優化。</li>
+                <li class="mb-2"><strong>量子運算成果：</strong>透過 Discovery 協助開發 Majorana 2 量子晶片，將可靠度提升 1000 倍，量子位元壽命提升至 20-60
+                    秒。此進展使 Microsoft 將「規模化量子電腦」的預期時程提前至 2029 年。</li>
+            </ul>
+
+            <h4 class="mt-4 text-info">2. 桌面版預覽應用程式</h4>
+            <ul>
+                <li class="mb-2"><strong>下載門檻：</strong>推出免費桌面版 App（需 GitHub Copilot 帳號），旨在服務學生與獨立研究人員。</li>
+                <li class="mb-2"><strong>核心組件：</strong>
+                    <ul>
+                        <li>Bookshelf：負責索引與推理的知識庫。</li>
+                        <li>Discovery Engine：負責統籌代理人框架。</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2 class="mt-5 border-bottom pb-2">AI 競爭的新局勢</h2>
+            <p class="fs-5 mt-3">
+                當前的 AI 產業已進入「戰略資產」階段。模型的能力（如 Mythos
+                的資安探測）已觸及國家安全紅線，導致技術普及受到地緣政治干預。同時，市場競爭已從純粹的模型性能比拼，轉向「工作流程遷移」與「特定領域（如科研）代理人」的深耕。企業與用戶在選擇工具時，需同時考慮技術效能與地緣政治帶來的存取風險。
+            </p>
+
+        </article>
+    </main>
+
+    <footer class="bg-light text-center text-secondary py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">© 2026</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
